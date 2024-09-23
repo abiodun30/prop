@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: inter;
+}
+h4{
+    font-weight: 500;
+    font-size: 24px; 
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.navbar{
+    background-color: #506FDE;
+}
+li{
+    color: white;
+}
+.crea1{
+    margin: 5px;
+    padding-inline: 25px;
+    padding-block: 15px;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+    background-color: #506FDE;
+    border: none;
+    border: 1px solid white;
+}
+.crea{
+    margin: 5px;
+    padding-inline: 28px;
+    padding-block: 15px;
+    background-color: #1F48D9;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.stream{
+    color: white;
+}
+.strem{
+    background-color: #506FDE;
+}
+.stream h3 {
+    font-family: Inter;
+    font-size: 58.36px;
+    font-weight: 300;
+    line-height: 63px;
+    margin-top: 70px;
+}
+.stream p {
+    font-family: Inter;
+    font-size: 17.58px;
+    font-weight: 250;
+    line-height: 27px;
+}
+.strea{
+    margin-block: 30px;
+}
+.crea2{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: 0px;
+    border: none;
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #506FDE;
+    font-weight: 500;
+}
+.crea3{
+    padding: 15px;
+    border-radius: 8px;
+    background-color: 0px;
+    width: 160px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: none;
+}
+.feat{
+    background-color: white;
+    padding-top: 100px;
+}
+.fea{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family: inter;
+}
+.whet{
+    font-weight: 500;
+    font-family: inter;
+    font-size: 15px;
+}
+.card{
+    padding: 15px;
+    margin-bottom: 200px;
+}
+.card1{
+    padding: 15px;
+}
+.card1{
+    margin-bottom: 20px;
+    border: none;
+    background-color:#F5FAFE;
+    border-radius: 10px;
+}
+.card{
+    margin-bottom: 50px;
+    border: none;
+    font-size: medium;
+    background-color:#F5FAFE;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: medium;
+    line-height: 20px;
+}
+.card1 h2{
+    font-size: medium;
+    line-height: 20px;
+}
+.how{
+    background-color: white;
+    margin-top: 110px;
+}
+.sim h1 {
+    font-family: inter;
+    font-weight: 350;
+    font-size: 44px;
+}
+.cre{
+    background: linear-gradient(to right,#E1EBF5 50%, #F5FAFE 50% );
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+    font-size: small;
+    margin-block: 20px;
+}
+.cre1 {
+    font-size: small;
+}
+.cre1, .cre h4 {
+    font-family: inter;
+}
+.wor{
+    margin-top: 150px;
+}
+.cre{
+    background-color: #F5FAFE;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+.enh{
+    margin-top: 50px;
+}
+.enha{
+    margin-block: 50px;
+}
+.lan{
+    margin-top: 100px;
+}
+.try{
+    padding-top: 100px;
+}
+.crea0{
+    margin: 5px;
+    padding-inline: 25px;
+    padding-block: 13px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.ico{
+    margin-bottom: 3px;
+}
+.mag1{
+    display: none;
+}
+.chi1{
+    display: none;
+}
+.change-bg{
+    background-color: #506FDE;
+}
+.control {
+    width: 100px !important;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.active-control{
+    width: 100px !important;
+    margin-top: 50px;
+}
+.arr{
+    margin-top: 50px;
+}
+.lef{
+    background-color: #FFFFFF66;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.right{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.ima1{
+    display: none;
+}
+footer{
+    background-color: #FFFDED;
+    padding-bottom: 10px;
+}
+.cur, .whet{
+    width: 600px;
+    margin: 0 auto;
+}
+.cur{
+    color: #061D29;
+}
+@media screen and (max-width: 880px) {
+    .mag{
+       display: none;
+    }
+    .mag1{
+        display: inline;
+    }
+    .chi{
+        display: none;
+    }
+    .chi1{
+        display: inline;
+    }
+    .ima{
+        display: none;
+    }
+    .ima1{
+        display: inline;
+    }
+    .lef{
+        display: none;
+    }
+    .right{
+        display: none;  
+    }
+    .lan{
+        margin-bottom: 100px;
+    }
+    .cur, .whet{
+        width: 100%;
+    }
+}
