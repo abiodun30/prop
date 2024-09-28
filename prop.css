@@ -22,6 +22,31 @@ p{
 li{
     color: white;
 }
+a.carousel-control-prev, a.carousel-control-next {
+    position: static;
+    display: inline;
+    padding: 9px;
+    background-color: white;
+    color: black;
+    border-radius: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+a.carousel-control-prev {
+    margin-right: 15px;
+    padding-inline: 10px;
+    padding-block: 10px;
+
+}
+a.carousel-control-next {
+    margin-right: 20px;
+    padding-block: 9px;
+    padding-inline: 10px;
+}
+.bi-arrow-left, .bi-arrow-right {
+    color: black;
+}
+
 .crea1{
     margin: 5px;
     padding-inline: 25px;
@@ -65,13 +90,13 @@ li{
     margin-block: 30px;
 }
 .crea2{
-    padding: 12px;
+    padding: 10px;
     border-radius: 8px;
     background-color: 0px;
     border: none;
-    width: 170px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 14px;
     color: #506FDE;
     font-weight: 500;
 }
@@ -97,7 +122,7 @@ li{
 .whet{
     font-weight: 500;
     font-family: inter;
-    font-size: 15px;
+    font-size: 16px;
 }
 .card{
     padding: 15px;
@@ -111,6 +136,7 @@ li{
     border: none;
     background-color:#F5FAFE;
     border-radius: 10px;
+    width: 365px;
 }
 .card{
     margin-bottom: 50px;
@@ -118,6 +144,7 @@ li{
     font-size: medium;
     background-color:#F5FAFE;
     border-radius: 10px;
+    width: 365px;
 }
 .card h2{
     font-size: medium;
@@ -129,7 +156,7 @@ li{
 }
 .how{
     background-color: white;
-    margin-top: 110px;
+    margin-top: 80px;
 }
 .sim h1 {
     font-family: inter;
@@ -143,9 +170,11 @@ li{
     border-radius: 10px;
     font-size: small;
     margin-block: 20px;
+    margin-left: 10px;
 }
 .cre1 {
     font-size: small;
+    margin-left: 10px;
 }
 .cre1, .cre h4 {
     font-family: inter;
@@ -166,7 +195,7 @@ li{
     margin-block: 50px;
 }
 .lan{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .try{
     padding-top: 100px;
@@ -192,37 +221,19 @@ li{
 .change-bg{
     background-color: #506FDE;
 }
-.control {
-    width: 100px !important;
-    margin-bottom: 100px;
-    margin-top: 50px;
+ol.indicator {
+    position: static;
+    display: flex !important;
+    width: 100%;
+    margin: 50px 0;
+}
+ol.indicator li {
+    flex: 1;
+    position: static !important;
+    width: 100%;
 }
 .active-control{
     width: 100px !important;
-    margin-top: 50px;
-}
-.arr{
-    margin-top: 50px;
-}
-.lef{
-    background-color: #FFFFFF66;
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-top: 7px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-.right{
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-top: 7px;
-    margin-bottom: 20px;
-    margin-top: 50px;
 }
 .ima1{
     display: none;
@@ -232,7 +243,7 @@ footer{
     padding-bottom: 10px;
 }
 .cur, .whet{
-    width: 600px;
+    width: 550px;
     margin: 0 auto;
 }
 .cur{
@@ -241,6 +252,12 @@ footer{
 @media screen and (max-width: 880px) {
     .mag{
        display: none;
+    }
+    .card{
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
     }
     .mag1{
         display: inline;
