@@ -212,9 +212,6 @@ a.carousel-control-next {
 .ico{
     margin-bottom: 3px;
 }
-.mag1{
-    display: none;
-}
 .chi1{
     display: none;
 }
@@ -236,8 +233,14 @@ ol.indicator li {
     width: 100px !important;
 }
 .ima1{
-    display: none;
+    display: none !important;
 }
+.mag1{
+    display: none !important;
+}
+/* .mag2{
+    display: none !important;
+} */
 footer{
     background-color: #FFFDED;
     padding-bottom: 10px;
@@ -249,18 +252,21 @@ footer{
 .cur{
     color: #061D29;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px){
     .mag{
-       display: none;
+       display: none !important;
+    }
+    .mag2{
+        display: none !important;
+    }
+    .mag1{
+        display: inline !important;
     }
     .card{
         width: 100%;
     }
     .card1{
         width: 100%;
-    }
-    .mag1{
-        display: inline;
     }
     .chi{
         display: none;
@@ -269,10 +275,10 @@ footer{
         display: inline;
     }
     .ima{
-        display: none;
+        display: none !important;
     }
     .ima1{
-        display: inline;
+        display: inline !important;
     }
     .lef{
         display: none;
@@ -286,4 +292,36 @@ footer{
     .cur, .whet{
         width: 100%;
     }
+    
+}
+@media screen and (max-width: 1150px) {
+    .how{
+        margin-bottom: 50px;
+    }
+    .mag1{
+        display: inline !important;
+        margin-top: 100px;
+        width: 500px !important;
+        /* margin-left: 50px; */ 
+    }
+    /* .mag2{
+        display: inline !important;
+    } */
+    .mag{
+        display: none !important;
+    }
+    .card{
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
+    }
+    .ima1{
+        display: inline !important;
+        margin-block: 150px;
+    }
+    .ima{
+        display: none !important;
+    }
+
 }
