@@ -132,7 +132,7 @@ a.carousel-control-next {
     padding: 15px;
 }
 .card1{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: none;
     background-color:#F5FAFE;
     border-radius: 10px;
@@ -238,9 +238,6 @@ ol.indicator li {
 .mag1{
     display: none !important;
 }
-/* .mag2{
-    display: none !important;
-} */
 footer{
     background-color: #FFFDED;
     padding-bottom: 10px;
@@ -292,29 +289,18 @@ footer{
     .cur, .whet{
         width: 100%;
     }
-    
 }
 @media screen and (max-width: 1150px) {
-    .how{
+    /* .how{
         margin-bottom: 50px;
     }
     .mag1{
         display: inline !important;
         margin-top: 100px;
         width: 500px !important;
-        /* margin-left: 50px; */ 
     }
-    /* .mag2{
-        display: inline !important;
-    } */
     .mag{
         display: none !important;
-    }
-    .card{
-        width: 100%;
-    }
-    .card1{
-        width: 100%;
     }
     .ima1{
         display: inline !important;
@@ -322,6 +308,14 @@ footer{
     }
     .ima{
         display: none !important;
+    } */
+    .how{
+        margin-bottom: 100px;
     }
-
+    .card{
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
+    }
 }
